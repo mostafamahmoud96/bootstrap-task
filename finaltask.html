@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <table>
+        
+        <tr>
+        <td>
+        <input type="text" id="firstName">
+    </td>
+    <td>
+        <input type="number" id="firstValue">
+    </td>
+    <td>
+        <input type="color" id="firstColor">
+    </td>
+
+
+    <td>
+        <input type="text" id="secName" >
+    </td>
+    <td>
+        <input type="number" id="secValue" min="0">
+    </td>
+    <td>
+        <input type="color" id="secColor">
+    </td>
+</tr>
+
+
+<tr>
+    <td>
+        <input type="text" id="thirdName">
+    </td>
+    <td>
+        <input type="number" id="thirdValue" min="0">
+    </td>
+    <td>
+        <input type="color" id="thirdColor">
+    </td>
+
+    <td>
+        <input type="text" id="fourthName">
+    </td>
+    <td>
+        <input type="number" id="fourthValue" min="0">
+    </td>
+    <td>
+        <input type="color" id="fourthColor">
+    </td>
+</tr>
+<tr></tr>
+<tr><td colspan="3"><button id="btnDraw" style="margin-left: 400px; width: 60px;" >draw</button>
+</td></tr>
+<tr>
+    <td>
+        <input type="checkbox" id="pieChart">
+        <label for="pieChart">Doughnut Chart </label><br>
+    </td>
+    <td>
+        <input type="checkbox" id="doughnutChart">
+        <label for="doughnutChart"> Pie chart </label><br>
+    </td>
+    <td>
+        <input type="checkbox" id="barChart">
+        <label for="barChart">  Line  Chart</label>
+    </td>
+    <td>
+        <input type="checkbox" id="lineChart">
+        <label for="lineChart">Bar chart</label>
+    </td>
+</tr>
+<table>
+<tr>
+    <td>
+            <p id="p1" style="color:rgb(135, 223, 63);margin:auto"></p>
+            
+    </td>
+</tr>
+    <tr>
+    <td>
+        <p id="p2" style="color:rgb(43, 80, 226);"></p>
+    </td>
+</tr>
+</table>
+
+    </table>
+    
+    <canvas id="pieCanvas"></canvas>
+    <canvas id="barCanvas"></canvas>
+    <div id="canvasData"></div>
+    
+    <div id="chartContainer" style="height: 650px; width: 25%; float: left;"></div>
+    
+    <script src="final.js"></script>
+     <!-- <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> -->
+    
+</body>
+</html>

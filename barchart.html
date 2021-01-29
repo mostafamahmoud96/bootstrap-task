@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+<div id="container">
+
+	<div class="col">
+		<input type="text"  id="firstName"> 
+		<input type="text"  id="secName">
+		<input type="text"  id="thirdName">
+		<input type="text"  id="fourthName">
+	</div>
+	<div class="col">
+		<input type="number" id="firstValue" min="1" step="1"> 
+		<input type="number"  id="secValue" min="1">
+		<input type="number"  id="thirdValue" min="1">
+		<input type="number"  id="fourthValue" min="1">
+	</div>
+	<div class="col">
+		<input type="color" id="firstColor">
+		<input type="color" id="secColor">
+		<input type="color" id="thirdColor">
+		<input type="color" id="fourthColor">
+	</div>
+	<div id="check">
+		<div class="check1">
+		
+	<input type="checkbox" name="" id="pie11">
+	<label>pie chart</label>
+	
+	<input type="checkbox" name="" id="pie22">
+	<label>doughnut chart</label>
+	</div>
+	<div class="check1">
+	
+	<input type="checkbox" name="" id="bar">
+	<label>bar chart</label>
+	
+	<input type="checkbox" id="polyCheck">
+	<label>line chart</label>
+	<button id="btn">Draw</button>
+</div>
+	</div>
+</div>
+<div id="error"></div>
+<div id="myerror"></div>
+<div id="noErr"></div>
+<div id="emptyCheck"></div>
+<canvas id="pie1"></canvas>
+<canvas id="myCanvas"></canvas>
+
+<canvas id="pie2"></canvas>
+
+  
+<div id="dataPercent" style="display: inline-block;"></div>
+
+
+
+<script type="text/javascript" src="barchart.js"></script>
+</body>
+</html>
